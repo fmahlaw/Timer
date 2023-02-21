@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .timer {
+    margin: 0 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .timer .name {
+    text-align: center;
+    font-size: 24px;
+  }
+  .timer .duration {
+    text-align: center;
+    font-size: 48px;
+  }
+  .timer .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .timer .button-container button {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button-container button.start {
+    background-color: green;
+    color: white;
+  }
+  .button-container button.pause {
+    background-color: orange;
+    color: white;
+  }
+  .button-container button.add-alert {
+    background-color: blue;
+    color: white;
+  }
+  .alert-form {
+    display: none;
+    margin-top: 10px;
+  }
+  .alert-form input {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .alert-form button {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
